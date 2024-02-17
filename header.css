@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    /* border: 2px solid black; */
+    height: 150px;
+    align-items: center;   
+}
+.head1{
+    font-size: 35px;
+    font-style: italic;
+    font-weight: bold;
+    background: linear-gradient(to right, #fd5f38, #feb47b53);
+    border-radius: 15px 0 35px;
+    padding: 15px;  
+    cursor: pointer; 
+    margin-left: 80px;
+}
+.head1:hover{
+    background: linear-gradient(to right, #feb47b53, #fd5f38);
+    transition-duration:  120s ; /* Adjust the duration as needed */
+    /* need to work on the teranscation  */
+
+}
+.head2{
+    display: flex;
+    justify-content: space-evenly;
+    min-width: 500px;
+    /* border: 1px solid black; */
+    font-size: 18px;
+    color: aliceblue;
+    z-index: 1000000;
+    
+}
+.head2 a {
+    text-decoration: none !important;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
